@@ -7,7 +7,7 @@
 4) Open `localhost:3000` :)
 
 ## Tradeoffs
-- As the form runs client side being dependant on the AppContext, it introduces a small delay before being able to start answering the questions. An alternative to this could be to serve the initial state (questions) from the server, however this may lead to the user clicking an uninteractive button which may cause fustration.
+- As the form runs client side, being dependant on the AppContext, it highlights a small delay the TTI (Time to Interactivity). An alternative to this could be to serve the initial state (questions) from the server, however this may lead to the user clicking an uninteractive button which may cause fustration and doesn't really increase TTI.
 
 - Aria tags have not been used  
 
